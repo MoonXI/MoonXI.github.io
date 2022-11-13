@@ -1,0 +1,312 @@
+/* 各个页面相同的样式表：头，尾部 */
+/* 版心 */
+.wrapper {
+    margin: 0 auto;
+    width: 1240px;
+}
+.shortcut {
+    height: 52px;
+    background-color: #333;
+}
+.shortcut .wrapper ul {
+    height: 52px;
+}
+.shortcut .wrapper ul li {
+    margin-top: 18px;
+    border-right: 1px solid #666;
+    width: 88px;
+    text-align: center;
+    line-height: 1;
+}
+.shortcut .wrapper ul .mobile {
+    border: none;
+}
+.shortcut .wrapper ul li a {
+    font-size: 14px;
+    color: #dcdcdc;
+}
+.shortcut .wrapper ul li a:hover {
+    font-weight: 700;
+}
+.shortcut .wrapper ul li a span {
+    display: inline-block;
+    width: 13px;
+    height: 19px;
+    background-image: url(../images/sprites.png);
+    background-position: -159px -70px;
+    vertical-align: middle;
+}
+.header {
+    height: 130px;
+    background-color: #fff;
+}
+.header .wrapper {
+    height: 130px;
+}
+.header .wrapper .left {
+    margin-top: 30px;
+}
+.header .wrapper .nav {
+    margin-top: 53px;
+}
+.header .wrapper .nav li {
+    margin-left: 48px;
+}
+.header .wrapper .nav li a {
+    padding-bottom: 7px;
+    font-size: 16px;
+    color: #333;
+}
+.header .wrapper .nav li a:hover {
+    color: #27ba9b;
+    border-bottom: 3px solid #27ba9b;
+    font-weight: 700;
+}
+.header .wrapper .right {
+    margin-top: 49px;
+    height: 32px;
+}
+.header .wrapper .right button {
+    border: none;
+    border-bottom: 2px solid #e7e7e7;
+    padding: 0;
+    cursor: pointer;
+    width: 25px;
+    height: 32px;
+    background-image: url(../images/sprites.png);
+    background-position: -79px -64px;
+    background-color: #fff;
+}
+.header .wrapper .right input {
+    border-bottom: 2px solid #e7e7e7;
+    height: 32px;
+    font-size: 14px;
+}
+.header .wrapper .right a {
+    position: relative;
+    margin-left: 15px;
+    margin-right: 12px;
+    width: 24px;
+    height: 32px;
+    background-image: url(../images/sprites.png);
+    background-position: -119px -65px;
+}
+.header .wrapper .right a span {
+    position: absolute;
+    left: 19px;
+    top: 0px;
+    border-radius: 7px;
+    width: 20px;
+    height: 15px;
+    background-color: #e26237;
+    text-align: center;
+    line-height: 15px;
+    font-size: 13px;
+    color: #fff;
+}
+.service {
+    height: 300px;
+}
+.service li {
+    margin-top: 60px;
+    margin-right: 40px;
+    width: 280px;
+    height: 190px;
+}
+.service li:nth-child(3) {
+    border-right: 2px solid #f2f2f2;
+}
+.service li:last-child {
+    margin-right: 0;
+}
+.service li a:hover {
+    font-weight: 700;
+}
+.service .one h3 {
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 16px;
+    color: #999999;
+}
+.service .one a {
+    border: 1px solid #eeeeee;
+    width: 92px;
+    height: 92px;
+}
+.service .one a span {
+    display: block;
+    margin: 18px auto 0;
+    width: 36px;
+    height: 36px;
+    background-image: url(../images/sprites.png);
+}
+.service .one .left {
+    margin-left: 45px;
+}
+.service .one .right {
+    margin-right: 45px;
+}
+.service .one .left span {
+    background-position: -250px -70px;
+}
+.service .one .right span {
+    background-position: -350px -70px;
+}
+.service .one a p {
+    text-align: center;
+    font-size: 14px;
+    color: #999999;
+}
+.service .two h3 {
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 16px;
+    color: #999999;
+}
+.service .two a {
+    border: 1px solid #eeeeee;
+    width: 92px;
+    height: 92px;
+}
+.service .two a span {
+    display: block;
+    margin: 18px auto 0;
+    width: 36px;
+    height: 36px;
+    background-image: url(../images/sprites.png);
+}
+.service .two .left {
+    margin-left: 45px;
+}
+.service .two .right {
+    margin-right: 45px;
+}
+.service .two .left span {
+    background-position: -205px -15px;
+}
+.service .two .right span {
+    background-position: -350px -15px;
+}
+.service .two a p {
+    text-align: center;
+    font-size: 14px;
+    color: #999999;
+}
+.service .three h3 {
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 16px;
+    color: #999999;
+}
+.service .three .left {
+    margin-left: 15px;
+    border: 2px solid #eeeeee;
+    width: 116px;
+    height: 116px;
+    background-color: #fff;
+}
+.service .three .right {
+    margin-right: 15px;
+    width: 116px;
+    height: 116px;
+    background-color: #fff;
+}
+.service .three .right p {
+    font-size: 14px;
+    color: #999999;
+}
+.service .three .right a {
+    display: block;
+    margin-top: 18px;
+    width: 103px;
+    height: 32px;
+    background-color: #27ba9b;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.service .four h3 {
+    margin-bottom: 58px;
+    text-align: center;
+    font-size: 16px;
+    color: #999999;
+}
+.service .four p {
+    text-align: center;
+}
+.service .four p:first-child {
+    font-size: 22px;
+    color: #666666;
+}
+.service .four p:last-child {
+    margin-top: 12px;
+    font-size: 15px;
+    color: #999999;
+}
+.footer {
+    height: 344px;
+    background-color: #434343;
+}
+.footer .wrapper {
+    width: 1393px;
+    height: 344px;
+}
+.footer .wrapper .top {
+    padding: 0 129px;
+    border-bottom: 3px solid #999999;
+    width: 1393px;
+    height: 171px;
+}
+.footer .wrapper .top li {
+    margin-top: 56px;
+    margin-right: 300px;
+    font-size: 28px;
+    color: #ffffff;
+}
+.footer .wrapper .top li:last-child {
+    margin-right: 0;
+}
+.footer .wrapper .top li span {
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+    background-image: url(../images/sprites.png);
+    vertical-align: middle;
+}
+.footer .wrapper .top li:nth-child(1) span {
+    background-position: 0 0;
+}
+.footer .wrapper .top li:nth-child(2) span {
+    background-position: -130px 0;
+}
+.footer .wrapper .top li:nth-child(3) span {
+    background-position: -64px 0;
+}
+.footer .wrapper .bottom {
+    margin-top: 41px;
+}
+.footer .wrapper .bottom ul {
+    text-align: center;
+}
+.footer .wrapper .bottom li {
+    display: inline;
+    padding: 0 10px;
+    border-right: 1px solid #999999;
+}
+.footer .wrapper .bottom li:last-child {
+    border: none;
+}
+.footer .wrapper .bottom li a {
+    font-size: 14px;
+    color: #999999;
+}
+.footer .wrapper .bottom li a:hover {
+    font-weight: 700;
+}
+.footer .wrapper .bottom p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #999999;
+}
